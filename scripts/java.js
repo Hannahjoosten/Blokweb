@@ -1,9 +1,11 @@
+<!--Menu Klik-->
 var button = document.getElementById("menuknop");
+<!--Artikel klik-->
 var element = document.querySelector("article");
-var kruisje = document.getElementById("kruisje");
+<!--Maakt de button zichtbaar-->
 button.addEventListener("click", function() {
     element.classList.toggle("zichtbaar");
 })
-
-kruisje.addEventListener("click", function() {
+<!--Maak de button zichtbaar-->
+buttton.addEventListener("click", function() {
         element.classList.toggle("zichtbaar")}
