@@ -47,7 +47,7 @@ Tijdens de toegangelijkheidstest kwam ik er achter dat niet alle tabs werken, hi
 
 ![Schermafbeelding 2022-02-11 om 18 17 52](https://user-images.githubusercontent.com/58260711/153667767-cd2fb92e-61ae-4a84-b0c2-7e2818b4ab4d.png)
 ![Schermafbeelding 2022-02-11 om 18 17 24](https://user-images.githubusercontent.com/58260711/153667770-75b475d5-9d00-4074-9412-df153a9624d2.png)
-![Uploading Schermafbeelding 2022-02-11 om 18.12.47.png…]()
+![Schermafbeelding 2022-02-11 om 18 12 47](https://user-images.githubusercontent.com/58260711/153672405-51ec206a-e9e9-4599-8dc2-ec899cc56d5a.png)
 
 - CHECK - Valideer de HTML en los eventuele errors op voordat je verder gaat.
 - CHECK - Check of de HTML een betekenisvolle structuur heeft, met logische heading levels en zinvolle landmarks.
@@ -66,11 +66,29 @@ CHECK - Netjes ingesprongen, van commentaar voorzien, etc.
 CHECK - Je levert de website ook als zip bestand in op DLO bij de assignment.
 
 BRONNEN
-https://www.youtube.com/watch?v=HZHHBwzmJLk
-https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
-https://css-tricks.com/so-many-states/
-https://validator.w3.org/
-https://freefrontend.com/css-carousels/ https://speckyboy.com/open-source-carousel-sliders-css/ https://www.w3schools.com/jsref/event_onscroll.asp https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onscroll_addeventlistener https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_shrink_scroll https://www.w3schools.com/cssref/pr_grid-area.asp https://www.w3schools.com/jsref/prop_element_scrolltop.asp https://html-css-js.com/css/generator/box-shadow/
+
+1. https://www.bol.com/nl/nl/
+2. https://www.bol.com/nl/nl/l/dierenbenodigdheden/12748/https://www.youtube.com/watch?v=HZHHBwzmJL
+3. https://partnerblog.bol.com/support/huisstijl-en-merkwaarden/
+4. https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
+5. https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/
+6. https://css-tricks.com/so-many-states/
+7. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+8. https://validator.w3.org/
+9. https://freefrontend.com/css-carousels/ https://speckyboy.com/open-source-carousel-sliders-css/ https://www.w3schools.com/jsref/event_onscroll.asp
+10. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onscroll_addeventlistener https://www.w3schools.com/howto/tryit.asp
+11. https://www.w3schools.com/cssref/pr_grid-area.asp https://www.w3schools.com/jsref/prop_element_scrolltop.asp
+12. https://html-css-js.com/css/generator/box-shadow/
+13. https://www.bol.com/nl/nl/
+14. https://www.bol.com/nl/nl/l/dierenbenodigdheden/12748/
+15. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+16. https://www.w3schools.com/css/css3_object-fit.asp
+17. https://css-tricks.com/almanac/properties/t/transition/
+18. https://www.w3schools.com/css/css3_object-fit.asp
+19. https://www.w3schools.com/howto/howto_css_icon_bar.asp
+20. https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+21. https://www.w3schools.com/howto/howto_css_topnav_centered.asp
+22. https://www.google.com/search?q=logo+bol.com+png&rlz=1C5CHFA_enNL962NL962&sxsrf=APq-WBtqnHp9ofC3QL03OKOXbSbyYu5RrQ:1644614996444&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiStJ2lzPj1AhUPrKQKHfQ6AhYQ_AUoAXoECAEQAw&biw=1745&bih=881&dpr=1.1#imgrc=aMhknLBvX4TivM
 
 
 
