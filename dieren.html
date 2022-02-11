@@ -1,188 +1,373 @@
 <!--Wat voor docuement het is. Van : Hannah Joosten-->
-    <!doctype html>
+<!doctype html>
 
 <!--In welke taal deze pagina is-->
-    <html lang="nl">
+<html lang="nl">
 
 <!--Basisinformatie-->
-    <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hannah Joosten">
 
-    <header>
+    <!--Responsible design.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BOL.COM</title>   
 
-      <meta charset="UTF-8">
-      <meta name="author" content="Hannah Joosten">
-  
-<!--Responsible design.-->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>BOL.COM</title>   
-  
-<!--Linken naar de stylesheet-->
+    <!--Linken naar de stylesheet-->
     <link rel="stylesheet" href="stylesheet.css">     
-      </header>
+</head>
 
-  </head>   
-
+<!--Begin van de body-->
 <body>
-
     <header>
-
         <nav>
             <ul>
-<!--Header menu inconen-->
+                <!--Header menu inconen-->
                 <li><img src="images/menu.hamburger.png" alt="Menu" id="menuknop"></li>
-                <li><a href="index.html"><img src="images/logo.png" alt="Bol.com"></a></li>
-                <li><a href=""><img src="images/user.svg.png" alt="Profiel"></a></li>
+                <li><a href="index.html"><img src="images/logo.png" alt="bol.com"> </a></li>
+                <li><a href=""><img src="images/user.svg.png" alt="profiel"></a></li>
                 <li><a href=""><img src="images/heart.png" alt="favorieten"></a></li>
-                <li><a href=""><img src="images/shopping.png" alt="Winkelmandje"></a></li>
+                <li><a href=""><img src="images/shopping.png" alt="winkelmandje"></a> </li>
             </ul>
         </nav>
 
-<!--Zoekfunctie in form-->
-        <form role="zoek" action="#">
+        <!--Zoekfunctie in form-->
+        <form role="search" action="#">
             <input type="search" name="search" id="search" placeholder="Waar ben je naar op zoek?" autocomplete="off">
             <button type="submit"><img src="images/zoeken.png" alt="zoeken"></button>
         </form>
 
     </header>
 
-    <main class="dieren">
-        <section>
-            <h2>Dierenwinkel</h2>
-            <p class="introtekst"> In onze dierenwinkel vind je alle dierbenodigdheden die je nodig hebt voor jouw dierenvriend. Het verschilt natuurlijk per huisdier wat je nodig hebt, daarom biedt de online dierenwinkel van bol.com je het breedste assortiment voor je huisdier. Naast honden- en kattenspullen, vind je hier ook alles voor je knaagdier, vogel, vis, reptiel of paard.
-            </p> 
-            <img src="images/dieren.png" alt="dieren" class="indexheaderimg">
+    <main>
+        <!--In het begin had ik moeite met de sliders en dit doordat ik ze niet genummerd had. Alle sliders vallen onder de class slider maar gerandschikt op 1,2,3. -->
+        <section class="sliders">
+            
+            <!--Banner Cupido-->
+            <img src="images/cupido.jpeg" alt="Schoot Cupirdo in de roos?" class="indexheaderimg">
 
-<!--In het begin had ik moeite met de sliders en dit doordat ik ze niet genummerd had. Alle sliders vallen onder de class slider maar gerandschikt op 1,2,3. -->
-            <div class="slider2">
-                <ul>
-                    <li><a href=""><img src="images/Hondenwinkel.png" alt="Hondenwinkel"></a></li>
-                    <li><a href=""><img src="images/Kattenwinkel.png" alt="Kattenwinkel"></a></li>
-                    <li><a href=""><img src="images/Kattenvoer.png" alt="Kattenvoer"></a></li>
-                    <li><a href=""><img src="images/Hondenspeeltje.png" alt="Hondenspeeltjes"></a></li>
-                    <li><a href=""><img src="images/Knaagdierenwinkel.png" alt="Knaagdierenwinkel"></a></li>
-                    <li><a href=""><img src="images/hondenvoer.png" alt="Hondenvoer"></a></li>
-                    <li><a href=""><img src="images/konijnenwinkel.png" alt="Konijnenwinkel"></a></li>
-                    <li><a href=""><img src="images/Paardenwinkel.png" alt="Paardenwinkel"></a></li>
-                </ul>
-            </div>
-            <p class="introtekst"> 177057 resultaten
-            </p>
-        </section>
-
-<!--Productpagina-->
-        <section class="product">
-            <img src="images/felix 1.jpeg" alt="felix">
-            <div>
-                <p class="uitgever">Felix</p>
-                <h2>Felix Original Mix Selectie in Gelei - Kattenvoer Natvoer - 44 x 85g</h2>
-                <p class="metadata">Geen speciaal voedingsdoel 44 stuk(s) Elke levensfase</p>
-
-<!--Hoeveel sterren krijgt het product?-->
-                <ul class="review">         
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li>(180)</li>
-                </ul>
-
-<!--Details uitleg over pagina-->
-                <p class="prijs">13,90</p>
-                <p class="uitgever">Verkoop door bol.com</p>
-                <p class="voorraad">Op Voorraad</p>
-                <p class="besteld">Voor 23:59 uur besteld, morgen in huis</p>
-            </div>
-        </section>
-
-<!--Productpagina-->
-        <section class="product">
-            <img src="images/Hondenfohn.jpeg" alt="Hondenfohn">
-            <div>
-                <p class="uitgever"> Gridbyt</p>
-                <h2>Gridbyt Professionele Hondenföhn, Waterblazer voor Honden - Voor een mooie vacht</h2>
-                <p class="metadata">De professionele hondenföhn en waterblazer van Gridbyt. Deze hoogwaardige föhn is de föhn voor de vacht van uw hond.</p>
-                
-<!--Hoeveel sterren krijgt het product?-->
-                    <ul class="review">
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li>(68)</li>
-                </ul>
-
-<!--Details uitleg over pagina-->
-                <p class="prijs">109,95</p>
-                <p class="uitgever">Verkoop door bol.com</p>
-                <p class="voorraad">Op Voorraad</p>
-                <p class="besteld">Voor 23:59 uur besteld, morgen in huis</p>
-            </div>
-        </section>
-
-<!--Productpagina-->
-        <section class="product">
-            <img src="images/G-horse.jpeg" alt="G-horse">
-            <div>
-                <p class="uitgever">G-HORSE</p>
-                <h2>G-Horse | Outdoor Regen/Winter deken | 200 gram | 195 cm | Zwart/grijs | 600DN
-                </h2>
-                <p class="metadata">Maat: 195 Denier: 600D</p>
-                
-<!--Hoeveel sterren krijgt het product?-->
-                    <ul class="review">
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li>(1)</li>
-                </ul>
-
-<!--Details uitleg over pagina-->
-                <p class="prijs">59,95</p>
-                <p class="uitgever">Verkoop door bol.com</p>
-                <p class="nietopvoorraad">Niet op Voorraad</p>
-                <p class="besteld">Uiterlijk 9 februari in huis</p>
-            </div>
-        </section>
-
-<!--Productpagina-->
-        <section class="product">
-            <img src="images/biokat.jpeg" alt="Biokat">
-            <div>
-                <p class="uitgever">JC Pets</p>
-                <h2>Biokat's Diamond Care Fresh - 10 L - Kattenbakvulling - Klontvormend - Babypoeder geur - Aktieve koolbiok</h2>
-                <p class="metadata">10 liter Klontvormend Klei</p>
-                
-<!--Hoeveel sterren krijgt het product?-->
-                    <ul class="review">
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li><img src="images/ster2.jpeg" alt="Review"></li>
-                    <li>(124)</li>
-                </ul>
-
-<!--Details uitleg over pagina-->
-                <p class="prijs">9,09</p>
-                <p class="uitgever">Verkoop door JC Pets</p>
-                <p class="voorraad">Op Voorraad</p>
-                <p class="besteld">Voor 23:59 uur besteld, morgen in huis</p>
-            </div>
-        </section>
-        
-<!--Trigger form verder kijken?-->
-        <h2 class="verderkijken">Verder kijken?</h2>
-        <section class="verderkijken">
+            <!--Deals van de dag-->
             <ul>
-                <li><img src="images/hondenwinkel1.png" alt="button">Hondenwinkel</li>
-                <li><img src="images/kattenwinkel1.png" alt="Consoles">Kattenwinkel</li>
-                <li><img src="images/supreme science.png" alt="Consoles">Supreme science</li>
-                <li><img src="images/hondspeeltje.png" alt="Consoles">Hondenspeeltjes</li>
+                    <h1>.</h1>
+                    <li><img src="images/PD2.png" alt="Pampers"></li>
+                    <li><img src="images/PD1.png" alt="Valentijn"></li>
             </ul>
+            
+
+            <!--Kies een categorie-->
+            <h2>Kies een categorie</h2>
+            <div class="indexslider1">
+                <ul>
+                    <li><a href="">Boeken</a><img src="images/Boeken.jpeg" alt="Boeken"></li>
+                    <li><a href="">Muziek &amp;Film &amp; Games</a><img src="images/games.jpeg" alt="Games"></li>
+                    <li><a href="">Computer &amp; Elektronica</a><img src="images/elektronica.jpeg" alt="Elektronica"></li>
+                    <li><a href="">Speelgoed &amp; Hobby</a><img src="images/speelgoed.jpeg" alt="Speelgoed"></li>
+                    <li><a href="">Baby &amp; kind</a><img src="images/baby.jpeg" alt="Baby"></li>
+                    <li><a href="">Mooi &amp; gezond</a><img src="images/beauty.jpeg" alt="Gezond"></li>
+                    <li><a href="">Kleding &amp; schoenen &amp; accessoires</a><img src="images/kleding.jpeg" alt="kleding"></li>
+                    <li><a href="">Sport &amp; Outdoor &amp; Reizen</a><img src="images/sport.jpeg" alt="sport"></li>
+                    <li><a href="">Kantoor &amp; School</a><img src="images/computer.jpeg" alt="School"></li>
+                    <li><a href="">Eten &amp; Drinken</a><img src="images/koken1.jpeg" alt="Drinken"></li>
+                    <li><a href="">Wonen &amp; Koken &amp; Huishouden</a><img src="images/wonen.jpeg" alt="Wonen"></li>
+                    <li><a href="">Dier &amp; Tuin &amp; Klussen</a><img src="images/dier.jpeg" alt="Dier"></li>
+                    <li><a href="">Auto &amp; Moter</a><img src="images/43646.jpeg" alt="43646"></li>
+                </ul>
+            </div>
+
+            <!--Populair bij bol.com-->
+            <h2>Populair bij bol.com</h2>
+            <div class="indexslider1">
+                <ul>
+                    <li>Flowflex Zelftest corona zelftest 56,99<img src="images/zelftest.jpeg" alt="zelftest"></li>
+                    <li>Google Chromecast 3 Smart 39,00 <img src="images/chromecast.jpeg" alt="Chromecast"></li>
+                    <li>Pokémon Legends: Arceus - Switch 56,99 <img src="images/pokemon.jpeg" alt="pokemon"></li>
+                    <li>Baltic Masks Medische mondkapjes type 2 13,50<img src="images/Baltic.jpeg" alt="baltic"></li>
+                    <li>FFP2 Medisch Mondkapje 8,90 <img src="images/mondkapje.jpeg" alt="Mondkapje"></li>
+                </ul>
+            </div>
+                        
+            <!--Scherp geprijsde parfum-->
+            <h2>Scherp geprijsde parfum</h2>
+            <div class="indexslider2">
+                <ul>
+                    <li><img src="images/parfum1.webp" alt="Parfum"></li>
+                    <li><img src="images/parfum2.webp" alt="Parfum"></li>
+                    <li><img src="images/parfum11.webp" alt="Parfum"></li>
+                    <li><img src="images/parfum5.webp" alt="Parfum"></li>
+                    <li><img src="images/parfum10.webp" alt="Parfum"></li>
+                    <li><img src="images/parfum7.webp" alt="Parfum"></li>
+                    <li><img src="images/parfum9.webp" alt="Parfum"></li>
+
+                </ul>
+            </div>
+            
+            <!--De cadeau pagina-->
+            <h2>De cadeau pagina</h2>
+            <div class="indexslider3">
+                <ul>
+                    <li>De cadeauwinkel<img src="images/cadeauwinkel-mhp-1.jpeg" alt="cadeauwinkel"></li>
+                    <li>Kids cadeaupagina<img src="images/kids.jpeg" alt="Huishoudenmiddelen"></li>
+                    <li>Verrassende cadeaus<img src="images/verrassend.jpeg" alt="therrmostaat"></li>
+                    <li>Verjaardag<img src="images/20211025-verjaardag.jpeg" alt="verjaardag"></li>
+                </ul>
+            </div>
+            
+            <!--Producten trending-->
+            <h2>Nu trending</h2>
+            <div class="indexslider2">
+                <ul>
+                    <li>Professionele CO2 meter<img src="images/P1.jpeg" alt="Professionele CO2 meter2"></li>
+                    <li>Meal Prep Bakjes<img src="images/meal.jpeg" alt="Voor Meal"></li>
+                    <li>Pukka Relax<img src="images/Relax.jpeg" alt="Pukka"></li>
+                    <li>Je fluistert in mijn oor<img src="images/fluistert.jpeg" alt="fluistert"></li>
+                    <li>Pukka Original<img src="images/Pukka.jpeg" alt="Pukka"></li>
+                </ul>
+            </div>
+        
+            <!--Producten interessant-->
+            <h2>Ook interessant</h2>
+            <div class="indexslider3">
+                <ul>
+                    <li>Alles voor jouw zaak<img src="images/zaak.jpeg" alt="zaak"></li>
+                    <li>Huishoudenmiddelen<img src="images/huishoudenmiddelen.jpeg" alt="Huishoudenmiddelen"></li>
+                    <li>Nieuwe therrmostaat of radiatorknop<img src="images/thermostaat.jpeg" alt="therrmostaat"></li>
+                    <li>Alle Etos drogisterij artikelen<img src="images/etos.jpeg" alt="Etos"></li>
+                    <li>Nieuwe Menstruatiecup van Tampax<img src="images/tampons.jpeg" alt="Tampax"></li>
+                </ul>
+            </div>
+
+            <!--Het hele menu van bol.com uitgeplat in ul & li.-->
+            <h2>Ontdek alles van Bol.com</h2>
+            <div class="wrapper">
+                <ul>
+                    <li>
+                        <input type="checkbox" id="list-item-1">
+                        <label for="list-item-1" class="first">Boeken</label>
+                        <ul>
+                            <li>Boeken</li>
+                            <li>Nederlandstalige boeken</li>
+                            <li>Engelstalige boeken</li>
+                            <li>E-books</li>
+                            <li>E-readers</li>
+                            <li>Kobo plus abonnement</li>
+                            <li>Tweedehands boeken</li>
+                            <li>Luisterboeken</li>
+                            <li>Studieboeken</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-2">
+                        <label for="list-item-2">Muziek film &amp; Games</label>
+                        <ul>
+                            <li>Muziek</li>
+                            <li>Dvd</li>
+                            <li>Blu-ray</li>
+                            <li>TV-series</li>
+                            <li>Games</li>
+                            <li>Consoles &amp; accessoires</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-3">
+                        <label for="list-item-3">Sport, Outdoor &amp; Reizen</label>
+                        <ul>
+                            <li>Sport</li>
+                            <li>Sportkleding</li>
+                            <li>Kamperen &amp; Outdoor</li>
+                            <li>Reisbagage</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-4">
+                        <label for="list-item-4">Computer &amp; Elektronica</label>
+                        <ul>
+                            <li>Computer</li>
+                            <li>Telefonie</li>
+                            <li>Tablets</li>
+                            <li>Huishoudelijke apparaten</li>
+                            <li>Keukenapparaten</li>
+                            <li>Camera's</li>
+                            <li>Wearables</li>
+                            <li>Naviagtie</li>
+                            <li>Televisies</li>
+                            <li>Audio &amp; Hifi</li>
+                            <li>Persoonlijke verzorging</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-5">
+                        <label for="list-item-5">Kantoor &amp; School</label>
+                        <ul>
+                            <li>Kantoor &amp; School</li>
+                            <li>Kantoorspullen</li>
+                            <li>Schoolspullen</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-6">
+                        <label for="list-item-6">Speelgoed &amp; Hobby</label>
+                        <ul>
+                            <li>Speelgoed</li>
+                            <li>Hobby &amp; Creatief</li>
+                            <li>Buitenspeelgoed</li>
+                            <li>Verkleedkleding</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-7">
+                        <label for="list-item-7">Koken &amp; Tafelen</label>
+                        <ul>
+                            <li>Koken &amp; Tafelen</li>
+                            <li>Barbecues</li>
+                            <li>Pannen</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-8">
+                        <label for="list-item-8">Huishouden</label>
+                        <ul>
+                            <li>Huishouden</li>
+                            <li>Prullenbakken</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-9">
+                        <label for="list-item-9">Tuin</label>
+                        <ul>
+                            <li>Tuin</li>
+                            <li>Tuinmeubelen</li>
+                            <li>Tuingereedschap</li>
+                            <li>Loungesets</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-10">
+                        <label for="list-item-10">Dier</label>
+                        <ul>
+                            <li>Dier</li>
+                            <li>Hond</li>
+                            <li>Katten</li>
+                            <li>Paard &amp; Ruiter</li>
+                            <li>Knaagdieren</li>
+                            <li>Vissen</li>
+                            <li>Reptielen</li>
+                            <li>Vogels</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-11">
+                        <label for="list-item-11">Wonen</label>
+                        <ul>
+                            <li>Wonen</li>
+                            <li>Meubels</li>
+                            <li>Beddengoed</li>
+                            <li>Verlichting</li>
+                            <li>Woonaccessoires</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-12">
+                        <label for="list-item-12">Klussen</label>
+                        <ul>
+                            <li>Klussen</li>
+                            <li>Elektrisch gereedschap</li>
+                            <li>Werkkleding &amp; Bescherming</li>
+                            <li>Verfspullen</li>
+                            <li>Behang</li>
+                            <li>Bouwmaterialen</li>
+                            <li>Opbergen &amp; Verhuizen</li>
+                            <li>Sanitair</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-13">
+                        <label for="list-item-13">Mooi &amp; Gezond</label>
+                        <ul>
+                            <li>Mooi &amp; Gezond</li>
+                            <li>Make-up</li>
+                            <li>Parfum</li>
+                            <li>Verzorging</li>
+                            <li>Gezondheid</li>
+                            <li>Erotiek</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-14">
+                        <label for="list-item-14">Damesmode</label>
+                        <ul>
+                            <li>Damesmode</li>
+                            <li>Dameskleding</li>
+                            <li>Dames schoenen</li>
+                            <li>Lingerie</li>
+                            <li>Dames accessoires</li>
+                            <li>Dames sieraden &amp; horloges</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-15">
+                        <label for="list-item-15">Herenmode</label>
+                        <ul>
+                            <li>Herenmode</li>
+                            <li>Herenkleding</li>
+                            <li>Heren schoenen</li>
+                            <li>Heren ondergoed</li>
+                            <li>Heren accessoires</li>
+                            <li>Heren sieraden &amp; horloges</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-16">
+                        <label for="list-item-16">Baby &amp; Kind</label>
+                        <ul>
+                            <li>Babykleding</li>
+                            <li>Babyartikelen</li>
+                            <li>Kinderkleding</li>
+                            <li>Jongenskleding</li>
+                            <li>Meisjeskleding</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-17">
+                        <label for="list-item-16">Dranken &amp; Delicatessen</label>
+                        <ul>
+                            <li>Koffie</li>
+                            <li>Thee</li>
+                            <li>Chocolade</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-18">
+                        <label for="list-item-17">Auto &amp; Motor</label>
+                        <ul>
+                            <li>Auto &amp; Motor</li>
+                            <li>Auto-accessoires</li>
+                            <li>Auto-onderhoud</li>
+                            <li>Auto-onderdelen</li>
+                            <li>Motoraccessoires</li>
+                            <li>Motorkleding</li>
+                            <li>Motoronderhoud &amp; -onderdelen</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-19">
+                        <label for="list-item-18">Inspiratie</label>
+                        <ul>
+                            <li>Stijl Magazine</li>
+                            <li>Tech Magazine</li>
+                            <li>Kids Magazine</li>
+                            <li>Lees Magazine</li>
+                            <li>Thuis Magazine</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="list-item-20">
+                        <label for="list-item-19" class="Last">Cadeaubonnen</label>
+                        <ul>
+                            <li>Cadeaubonnen</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
@@ -191,7 +376,7 @@
 
 <!--Service icoon en service informatie-->
         <section class="services">
-            <h2>Services &amp; Contact</h2>
+            <h2>Service &amp; Contact</h2>
             <div>
                 <img src="images/pf.png" alt="icoon">
                 <ul>
@@ -209,10 +394,17 @@
                 </ul>
             </div>
         </section>
-        
+<!--Buttons naar overige informatie-->
+<section class="overigeinformatie">
+    <h2>Contact opnemen met ons</h2>
+    <p>Klantenservice</p>
+    <p>Over bol.com</p>
+    <p>Zakendoen met bol.com</p>
+</section>
+      
 <!--Sociale media iconen-->
         <section class="social">
-            <h2>Wil je ons volgen?</h2>
+            <h2>Volg je ons volgen?</h2>
             <ul>
                 <li><img src="images/YT.png" alt="Facebook"></li>
                 <li><img src="images/twitter.png" alt="Twitter"></li>
@@ -221,10 +413,13 @@
                 <li><img src="images/youtube.png" alt="YouTube"></li>
                 <li><img src="images/linkdin.png" alt="LinkedIn"></li>
             </ul>
-
-<!-- Aanmelden voor de nieuwsbrief-->
+            
+<!--Aanmelden voor de nieuwsbrief-->
             <p>Meld je aan voor onze nieuwsbrief</p>
-            <img src="images/logo.bol.png" alt="Bol.com: De Winkel van ons allemaal" class="footering">
+            
+            <img src="images/logo.bol.png" alt="Bol.com: De Winkel van ons allemaal" class="footer">
+            
+<!--Footerlinks-->
             <ul class="footerlinks">
                 <li>Geldt voor aankopen bij Thuiswinkel-leden</li>
                 <li>|</li>
@@ -234,27 +429,45 @@
                 <li>|</li>
                 <li>Cookies</li>
                 <li>|</li>
-                <li>© 1999-2022 bol.com</li>
+                <li>©1999-2022 bol.com</li>
             </ul>
         </section>
 
 <!--Voorwaarden van bol.com-->
         <section class="voorwaarden">
+            <h2>Voorwaarden</h2>
             <p>* De voordelen van bol.com gelden niet voor het gehele assortiment. Bekijk de voorwaarden.</p>
             <p>Alle prijzen zijn inclusief BTW en andere heffingen en exclusief eventuele verzendkosten en servicekosten.</p>
         </section>
-
+    
     </footer>
-
-<!--Hamburger menu-->
-    <article> 
-            <div class="fixedmenu">
-            <div class="fixedmenudiv">
-    </article>
+    
+<!--Hamburger menu - dit is de enigste error, bij een artikel moet een h1-h6 element. Er is geen titel bij-->
+<article>
+    <div class="fixedmenu">
+        <img src="images/kruisje.png" alt="Terug" id="kruisje">
+        <div class="fixedmenudiv">
+            <ul>
+                <li><img src="images/1.png" alt="">Boeken</li>
+                <li><img src="images/2.png" alt="">Muziek, Film &amp; Games</li>
+                <li><img src="images/3.png" alt="">Computer &amp; Elektronica</li>
+                <li><img src="images/4.png" alt="">Speelgoed &amp; Hobby</li>
+                <li><img src="images/5.png" alt="">Baby &amp; Kind</li>
+                <li><img src="images/6.png" alt="">Mooi &amp; Gezond</li>
+                <li><img src="images/7.png" alt="">Kleding, Schoenen</li>
+                <li><img src="images/8.png" alt="">Sport, Outdoor &amp; Reizen</li>
+                <li><img src="images/9.png" alt="">Kantoor &amp; School</li>
+                <li><img src="images/10.png" alt="">Dranken &amp; Delicatessen</li>
+                <li><img src="images/11.png" alt="">Wonen, Koken &amp; Huishouden</li>
+                <li><img src="images/12.png" alt="">Dier, Tuin &amp; Klussen</li>
+                <li><img src="images/13.png" alt="">Auto &amp; Motor</li>
+            </ul>
+        </div>
+    </div>
+</article>
 
 <!--Link voor Javascript-->
     <script src="scripts/java.js"></script>
 
 </body>
-
 </html>
