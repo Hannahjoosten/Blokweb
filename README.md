@@ -1,8 +1,4 @@
 # Blokweb
-Studentnaam: Hannah Joosten
-Leerlingenummer: 500802138
-Beoordeling: Joost Faber
-Opleiding: Multimedia design en communicatie
 
 Mijn opdracht voor frontend development: https://github.com/Hannahjoosten/Blokweb.git
 
